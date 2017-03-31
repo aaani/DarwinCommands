@@ -1,17 +1,20 @@
-# DarwinCommands
+# Darwin Commands
 Some Darwin command that I find useful
 
-# find
+## find
 find .
 find . -d 2
 find ahi* -empty  
 find ahi* ! -size 0  
 
-# wc
+## wc
 wc -l
 
-# lsof
+## lsof
 lsof -t -i :8080
 
-# kill
+## kill
 kill -9 <process_id>
+
+## tail
+tail -F logs/server.log
