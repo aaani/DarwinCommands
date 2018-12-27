@@ -18,3 +18,6 @@ kill -9 <process_id>
 
 ## tail
 tail -F logs/server.log
+
+## date
+date -r <timestamp>
